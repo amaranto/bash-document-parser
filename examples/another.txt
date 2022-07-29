@@ -1,0 +1,7 @@
+Tp de entorno de desarrollo.
+La oracion de arriba se considera otro parrafo porque tiene punto y aparte. Esta misma en cambio es punto y seguido.
+Y esto es un pequeno ejemplo. Ezequiel es nombre propio.
+Una oracion sin punto 
+La palabra muymuylargaparaprobar no existe.
+Faltan los palindromos como Neuquen,  radar y reconocer.
+
