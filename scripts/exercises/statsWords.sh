@@ -22,9 +22,10 @@ function statsWords(){
                 total_words=$((total_words+1))
                 total_length=$((total_length+${#w}))
                 prom_length=$((total_length/total_words))
-                printf '\r %s <%d> | %s <%d> | %s <%d> | %s <%d> | %s <%d> | %s ' "Words" "${total_words}" "Longest word" "${#longest_word}" "Shortest word" "${#shortest_word}" "Total length" "${total_length}" "Prom lenght" "${prom_length}" "${longest_word}"
             done     
         done <"${fd}"
+
+        printf '\r %s <%d> | %s <%d> | %s <%d> | %s <%d> | %s <%d> | %s ' "Words" "${total_words}" "Longest word" "${#longest_word}" "Shortest word" "${#shortest_word}" "Total length" "${total_length}" "Prom lenght" "${prom_length}" "${longest_word}"
         printf "\n"       
         echo "-----------------------------------"
     done
