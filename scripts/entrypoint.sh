@@ -12,10 +12,12 @@ source ${SCRIPTS_FOLDER}/exercises/caseConverter.sh
 source ${SCRIPTS_FOLDER}/exercises/substringReplace.sh
 source ${SCRIPTS_FOLDER}/exercises/blockSelection.sh
 
-export SOURCE_FOLDER="/mnt/texts"
 export TEXT_FILES=${TEXT_FILES}
 
+[ $# -le 0 ] && usage && exit 1
+
 while getopts :s:f:v:hi opt; do
+    
     case ${opt} in
     h)
         usage
