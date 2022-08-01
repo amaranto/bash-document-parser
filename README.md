@@ -2,15 +2,15 @@
 ===========
 ## Indice
 ---
-![Creacion del container](/README#creacion-del-container)
-![Uso](/README#creacion-del-container)
-- [opciones](/README#opciones)
-![Ejemplos](/README#ejemplos)
-- ![modo interactivo](/README#ejemplo-de-modo-interactivo-usando-mnttexts-como-carpeta-por-defecto)
-- ![modo interactivo deshabilitado](/README#ejemplo-de-funcion-con-modo-interactivo-deshabilitado)
-- ![especificando distintas fuentes de texto](/README#ejemplo-de-funcion-con-modo-interactivo-y-especificando-distintos-fuentes-de-texto)
-- ![habilitando debug](/README#ejemplo-habilitando-modo-debug)
-![Funciones disponibles](/README#funciones-disponibles)
+![Creacion del container](/#creacion-del-container)
+![Uso](/#creacion-del-container)
+- [opciones](/#opciones)
+![Ejemplos](/#ejemplos)
+- ![modo interactivo](/#ejemplo-de-modo-interactivo-usando-mnttexts-como-carpeta-por-defecto)
+- ![modo interactivo deshabilitado](/#ejemplo-de-funcion-con-modo-interactivo-deshabilitado)
+- ![especificando distintas fuentes de texto](/#ejemplo-de-funcion-con-modo-interactivo-y-especificando-distintos-fuentes-de-texto)
+- ![habilitando debug](/#ejemplo-habilitando-modo-debug)
+![Funciones disponibles](/#funciones-disponibles)
 
 
 ## Creacion del container
