@@ -1,5 +1,5 @@
 # Trabaja Practico - Entorno
-===========
+
 ## Indice
 ---
 [Creacion del container](#creacion-del-container)
