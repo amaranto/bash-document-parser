@@ -81,31 +81,38 @@ docker run -ti -e LOG_LEVEL=DEBUG --rm  --name entorno entorno -s "/mnt/texts"  
 ## Funciones disponibles:
 ---
 1. *statsWords*
+
 Indicador estadístico de longitud de palabras (la más corta, la más larga y el
 promedio de longitud).
 
 2. *statsUsageWords*
+
 Indicador estadístico de uso de palabras, deben ser de al menos 4(cuatro)
 letras. (mostrar un Top Ten de estas palabras ordenadas desde la que tiene
 más apariciones a la que tiene menos). Es decir, filtrar las palabras que
 tengan al menos 4 letras y de éstas, elegir las 10 más usadas.
 
 3. *findNames*
+
 Identificación de nombres propios (se identifican sólo si están en este formato
 Nnnnnnnnn), aunque la palabra no sea un nombre propio realmente.
 Ejemplos: Mateo, Estonoesunnombre, Ana.
 
 4. *statsSentences*
+
 Indicador estadístico de longitud de oraciones (la más corta, la más larga y el
 promedio de longitud).
 
 5. *blankLinesCounter*
+
 Contador de líneas en blanco.
 
 6. *caseConverter*
+
 Invertir minúsculas a mayúsculas, y viceversa, de todas las palabras.
 
 7. *substringReplace*
+
 Reemplazo de subcadenas, que considere diferencias entre minúsculas y
 mayúsculas, pero ignore acentos. Recibe dos cadenas, y cada aparición de
 cadena1 debe reemplazarse por la cadena2.
@@ -114,6 +121,7 @@ las palabras: enTrepiso, entretenido, intrépido
 pasan a: enTrepiso, enTREtenido, inTREpido
 
 8. *blockSelection*
+
 Selección de oración y/o párrafo en base a un número de entrada. Es decir,
 se puede establecer como entrada “O” o “P” para indicar oración o párrafo y
 luego un número (un párrafo se distingue de otro con un punto y aparte, las
